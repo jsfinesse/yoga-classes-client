@@ -89,6 +89,14 @@ const AdmissionForm = () => {
                     <option value="8-9AM">8-9AM</option>
                     <option value="5-6PM">5-6PM</option>
                 </select>
+                <label>Amount:</label>
+                <input
+                    type="text"
+                    name="amount"
+                    value={500}
+                    readOnly = {true}
+                    disabled = {true}
+                />
                 <button type="submit">Submit</button>
             </form>
             <ToastContainer />
