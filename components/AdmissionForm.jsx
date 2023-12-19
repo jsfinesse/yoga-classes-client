@@ -89,7 +89,7 @@ const AdmissionForm = () => {
                     <option value="8-9AM">8-9AM</option>
                     <option value="5-6PM">5-6PM</option>
                 </select>
-                <label>Amount:</label>
+                <label>Amount ₹:</label>
                 <input
                     type="text"
                     name="amount"
