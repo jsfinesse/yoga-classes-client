@@ -2,6 +2,8 @@
 
 This repository contains the frontend code for the Yoga Classes Admission Form application.
 
+To get to the backend repo, [click here](https://github.com/jsfinesse/yoga-classes-backend)
+
 ## Overview
 
 The Yoga Classes Admission Form is a simple web application built using Next.js, React, and Axios. It allows users to submit their details for enrollment in yoga classes.
@@ -45,16 +47,19 @@ Follow these steps to run the frontend locally:
 ## Dockerized Deployment
 
 **Prerequisites:**
-- Docker installed on your machine
+
+-   Docker installed on your machine
 
 **Build and Run the Docker Image:**
 
 1. Build
+
 ```bash
 docker build -t yoga-classes-frontend .
 ```
 
 2. Run
+
 ```bash
 docker run -p 3000:3000 yoga-classes-frontend
 ```
